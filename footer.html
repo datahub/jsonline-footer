@@ -1,0 +1,29 @@
+<div class="mjs-footer">
+    <div class="mjs-footer-related">
+        <h3 class="mjs-footer-related-title">More stories</h3>
+        <a class="mjs-footer-related-link" target="_blank" href="<% this.firstLink %>">
+            <div class="mjs-footer-related-item-1">
+                <% if (this.firstImage) { %><img class="mjs-footer-related-image" src="<% this.firstImage %>"><% } %>
+                <div class="mjs-footer-related-headline"><% this.firstHeadline %></div>
+                <div class="mjs-footer-related-desc"><% this.firstDesc %></div>
+            </div>
+        </a>
+        <a class="mjs-footer-related-link" target="_blank" href="<% this.secondLink %>">
+            <div class="mjs-footer-related-item-2">
+                <% if (this.secondImage) { %><img class="mjs-footer-related-image" src="<% this.secondImage %>"><% } %>
+                <div class="mjs-footer-related-headline"><% this.secondHeadline %></div>
+                <div class="mjs-footer-related-desc"><% this.secondDesc %></div>
+            </div>
+        </a>
+    </div>
+    <div class="mjs-footer-meta">
+        <img class="mjs-footer-mjs" src="http://www.gannett-cdn.com/sites/jsonline/images/site-masthead-logo@2x.png" alt="Milwaukee Journal Sentinel Logo">
+        <img class="mjs-footer-usat" src="http://www.gannett-cdn.com/sites/usatoday/images/site-masthead-logo@2x.png" alt="USA Today Logo">
+        <div class="mjs-footer-links">
+            <a class="mjs-footer-link" href="http://static.jsonline.com/terms/" target="_blank">Terms of Service</a>|
+            <a class="mjs-footer-link" href="http://static.jsonline.com/privacy/" target="_blank">Privacy Notice/Your California Privacy Rights</a>|
+            <a class="mjs-footer-link" href="http://static.jsonline.com/watchdog/" target="_blank">Got a tip?</a><br><br>
+            <span class="mjs-footer-link">&copy; <% this.year %> The Milwaukee Journal Sentinel, All rights reserved.</span>
+        </div>
+    </div>
+</div>

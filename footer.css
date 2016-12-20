@@ -1,0 +1,35 @@
+.mjs-footer {margin-top:100px; width:100%; padding:40px 0 0 0; font-family:'Futura Today',Helvetica,Arial,sans-serif;}
+.mjs-footer-related {width:100%; max-width:1024px; margin:0 auto 40px auto; overflow-y:auto;}
+.mjs-footer-related-title {margin:0; padding:0 0 10px 0; border-bottom:1px solid #ccc; font-size:30px; line-height:1;}
+.mjs-footer-related-item-1 {display:inline-block; width:49%; float:left; padding:20px 0; border-right: 1px solid #ccc;}
+.mjs-footer-related-item-2 {display:inline-block; width:49%; float:right; padding:20px 0; transition:background .2s ease-out;}
+.mjs-footer-related-image {display:block; float:left; margin-right: 15px; width:100%; height:auto; max-width:180px;}
+.mjs-footer-related-headline {margin-right:15px; font-size:18px; line-height: 1.3; font-weight:bold; font-family:'Futura Today DemiBold', Helvetica,Arial,sans-serif;}
+.mjs-footer-related-desc {margin-right:15px; font-size:14px; line-height:1.3; }
+.mjs-footer-related-link,
+.mjs-footer-related-link:focus,
+.mjs-footer-related-link:visited,
+.mjs-footer-related-link:hover {color:#000 !important; text-decoration:none !important;}
+.mjs-footer-related-link:hover .mjs-footer-related-headline {text-decoration:underline !important;} 
+.mjs-footer-meta {padding:40px 0 60px 0; background:#222; color:#fff; text-align:center;}
+.mjs-footer-mjs {display:inline-block; width:224px; height:auto; margin:20px 40px 0 0;}
+.mjs-footer-usat {display:inline-block; width:200px; height:auto; margin:20px 40px 0 0;}
+.mjs-footer-links {margin:10px 0 0 0; font-size:14px;}
+.mjs-footer-link,
+.mjs-footer-link:focus,
+.mjs-footer-link:visited {color:#fff !important; text-decoration:none !important; padding:10px;}
+a.mjs-footer-link:hover {color:#fff !important; text-decoration:underline !important;}
+@media(max-width:1060px) {
+	.mjs-footer-related {width: 94%;}
+}
+@media(max-width:730px) {
+	.mjs-footer {padding-top:10px;}
+	.mjs-footer-mjs,
+	.mjs-footer-usat {margin:0;}
+	.mjs-footer-related {margin-bottom:15px;}
+	.mjs-footer-related-title {font-size:26px;}
+	.mjs-footer-related-item-1,
+	.mjs-footer-related-item-2 {display:block; width:100%; float:none; padding:10px 0; border-right:none;}
+	.mjs-footer-related-item-2 {border-top: 1px solid #ccc;}
+	.mjs-footer-related-image {max-width:100px; margin-right:10px;}
+}
